@@ -1,326 +1,363 @@
 [
   {
-    "id": "comic/1",
+    "id": "1",
     "Series": "Marvel Comics",
     "Year": 1939,
     "Published": "October",
-    "Series Link": "https://www.comics.org/series/136/",
+    "SeriesLink": "https://www.comics.org/series/136/",
     "Cover": "comics/1.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Стрипот 'Marvel Comics' е објавен во 1939 година и содржи иконични ликови од Marvel универзумот. Објавен е во октомври, и може да се најде на официјалниот линк."
   },
   {
-    "id": "comic/2",
+    "id": "2",
     "Series": "Marvel Mystery",
     "Year": 1939,
     "Published": "December",
-    "Series Link": "https://www.comics.org/series/137/",
+    "SeriesLink": "https://www.comics.org/series/137/",
     "Cover": "comics/2.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Marvel Mystery стрипот е дел од Marvel сериите и е објавен во декември 1939 година. Претставува мистични и авантуристички приказни."
   },
   {
-    "id": "comic/3",
+    "id": "3",
     "Series": "Daring Mystery",
     "Year": 1940,
     "Published": "January",
-    "Series Link": "https://www.comics.org/series/177/",
+    "SeriesLink": "https://www.comics.org/series/177/",
     "Cover": "comics/3.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "Daring Mystery стрипот е издаден во јануари 1940 година и претставува серија со мистични елементи и херојски авантури."
   },
   {
-    "id": "comic/4",
+    "id": "4",
     "Series": "Daring Comics",
     "Year": 1940,
     "Published": "August",
-    "Series Link": "https://www.comics.org/series/178/",
+    "SeriesLink": "https://www.comics.org/series/178/",
     "Cover": "comics/4.jpg",
-    "Price": 10
+    "Price": 10,
+    "Description": "Daring Comics, објавен во август 1940 година, е популарен стрип со интересни херојски наративи."
   },
   {
-    "id": "comic/5",
+    "id": "5",
     "Series": "Mystic Comics",
     "Year": 1940,
     "Published": "March",
-    "Series Link": "https://www.comics.org/series/179/",
+    "SeriesLink": "https://www.comics.org/series/179/",
     "Cover": "comics/5.jpg",
-    "Price": 8
+    "Price": 8,
+    "Description": "Mystic Comics се појавува во март 1940 година и ја истражува магијата и мистиката во стрипот."
   },
   {
-    "id": "comic/6",
+    "id": "6",
     "Series": "Mystic Comics 2",
     "Year": 1940,
     "Published": "August",
-    "Series Link": "https://www.comics.org/series/180/",
+    "SeriesLink": "https://www.comics.org/series/180/",
     "Cover": "comics/6.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Mystic Comics 2 продолжува со мистичните теми од претходната серија, со нови авантури и откритија."
   },
   {
-    "id": "comic/7",
+    "id": "7",
     "Series": "Red Raven",
     "Year": 1943,
     "Published": "January",
-    "Series Link": "https://www.comics.org/series/111924/",
+    "SeriesLink": "https://www.comics.org/series/111924/",
     "Cover": "comics/7.jpg",
-    "Price": 5
+    "Price": 5,
+    "Description": "Red Raven е објавен во јануари 1943 година и ги истражува авантурите на ликот Red Raven."
   },
   {
-    "id": "comic/8",
+    "id": "8",
     "Series": "All-Winners",
     "Year": 1941,
     "Published": "June",
-    "Series Link": "https://www.comics.org/series/236/",
+    "SeriesLink": "https://www.comics.org/series/236/",
     "Cover": "comics/8.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "All-Winners стрипот ги обединува најпознатите Marvel хероји и ги прикажува нивните авантури."
   },
   {
-    "id": "comic/9",
+    "id": "9",
     "Series": "Captain America",
     "Year": 1941,
     "Published": "March",
-    "Series Link": "https://www.comics.org/series/237/",
+    "SeriesLink": "https://www.comics.org/series/237/",
     "Cover": "comics/9.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Captain America стрипот е издаден во март 1941 година и ја следи приказната на еден од најпознатите Marvel хероји."
   },
   {
-    "id": "comic/10",
+    "id": "10",
     "Series": "Gayety",
     "Year": 1985,
     "Published": "September",
-    "Series Link": "https://www.comics.org/series/95255/",
+    "SeriesLink": "https://www.comics.org/series/95255/",
     "Cover": "comics/10.jpg",
-    "Price": 5
+    "Price": 5,
+    "Description": "Gayety стрипот беше објавен во септември 1985 година и има фокус на комични и забавни настани."
   },
   {
-    "id": "comic/11",
+    "id": "11",
     "Series": "Jest",
     "Year": 1941,
     "Published": "July",
-    "Series Link": "https://www.comics.org/series/76190/",
+    "SeriesLink": "https://www.comics.org/series/76190/",
     "Cover": "comics/11.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Jest стрипот е издаден во јули 1941 година и носи интересни и хумористични авантури."
   },
   {
     "id": "comic/12",
     "Series": "Joker",
     "Year": 1941,
     "Published": "October",
-    "Series Link": "https://www.comics.org/series/92580/",
+    "SeriesLink": "https://www.comics.org/series/92580/",
     "Cover": "comics/12.jpg",
-    "Price": 10
+    "Price": 10,
+    "Description": "Joker стрипот е објавен во октомври 1941 година и претставува една од најпознатите злосторнички личности во историјата на стриповите."
   },
   {
-    "id": "comic/13",
+    "id": "13",
     "Series": "Sub-Mariner",
     "Year": 1941,
     "Published": "Spring",
-    "Series Link": "https://www.comics.org/series/239/",
+    "SeriesLink": "https://www.comics.org/series/239/",
     "Cover": "comics/13.jpg",
-    "Price": 8
+    "Price": 8,
+    "Description": "Sub-Mariner стрипот, објавен во пролетта 1941 година, го прикажува херојот Sub-Mariner, подводниот херој."
   },
   {
-    "id": "comic/14",
+    "id": "14",
     "Series": "USA Comics",
     "Year": 1941,
     "Published": "August",
-    "Series Link": "https://www.comics.org/series/240/",
+    "SeriesLink": "https://www.comics.org/series/240/",
     "Cover": "comics/14.jpg",
-    "Price": 8
+    "Price": 8,
+    "Description": "USA Comics стрипот, издаден во август 1941 година, ја прикажува Америка во борба против злото."
   },
   {
-    "id": "comic/15",
+    "id": "15",
     "Series": "Young Allies",
     "Year": 1941,
     "Published": "October",
-    "Series Link": "https://www.comics.org/series/241/",
+    "SeriesLink": "https://www.comics.org/series/241/",
     "Cover": "comics/15.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "Young Allies стрипот, издаден во октомври 1941 година, ја прикажува младата група херои кои се бореа против злото."
   },
   {
-    "id": "comic/16",
+    "id": "16",
     "Series": "Zippy",
     "Year": 1941,
     "Published": "September",
-    "Series Link": "https://www.comics.org/series/109677/",
+    "SeriesLink": "https://www.comics.org/series/109677/",
     "Cover": "comics/16.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Zippy стрипот, издаден во септември 1941 година, се фокусира на авантурите на Zippy."
   },
   {
-    "id": "comic/17",
+    "id": "17",
     "Series": "Captain America",
     "Year": 1942,
     "Published": "February",
-    "Series Link": "https://www.comics.org/series/59152/",
+    "SeriesLink": "https://www.comics.org/series/59152/",
     "Cover": "comics/17.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Captain America стрипот, издаден во февруари 1942 година, продолжува со истражување на борбата против фашизмот."
   },
   {
-    "id": "comic/18",
+    "id": "18",
     "Series": "Comedy",
     "Year": 1942,
     "Published": "January",
-    "Series Link": "https://www.comics.org/series/116073/",
+    "SeriesLink": "https://www.comics.org/series/116073/",
     "Cover": "comics/18.jpg",
-    "Price": 5
+    "Price": 5,
+    "Description": "Comedy стрипот издаден во јануари 1942 година, е полн со хумористични и забавни настани."
   },
   {
-    "id": "comic/19",
+    "id": "19",
     "Series": "Comedy Comics",
     "Year": 1942,
     "Published": "April",
-    "Series Link": "https://www.comics.org/series/297/",
+    "SeriesLink": "https://www.comics.org/series/128082/",
     "Cover": "comics/19.jpg",
-    "Price": 6
+    "Price": 8,
+    "Description": "Comedy Comics стрипот, објавен во април 1942 година, продолжува со забавни и хумористични приказни."
   },
+
   {
-    "id": "comic/20",
+    "id": "20",
     "Series": "Joker",
     "Year": 1942,
     "Published": "Spring",
-    "Series Link": "https://www.comics.org/series/75375/",
+    "SeriesLink": "https://www.comics.org/series/75375/",
     "Cover": "comics/20.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "Комикс серијата 'Joker', објавена во Пролет 1942, го претставува познатиот негативец Joker во различни лукави и криминални подухвати."
   },
   {
-    "id": "comic/21",
+    "id": "21",
     "Series": "Joker Comics",
     "Year": 1942,
     "Published": "April",
-    "Series Link": "https://www.comics.org/series/298/",
+    "SeriesLink": "https://www.comics.org/series/298/",
     "Cover": "comics/21.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Joker Comics, објавена во април 1942, ја истражува понатамошната улога на Joker како еден од најголемите злосторници."
   },
   {
-    "id": "comic/22",
+    "id": "22",
     "Series": "Krazy Komics",
     "Year": 1942,
     "Published": "July 1942 - Spring 1947",
-    "Series Link": "https://www.comics.org/series/299/",
+    "SeriesLink": "https://www.comics.org/series/299/",
     "Cover": "comics/22.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Krazy Komics, која излегува од јули 1942 до пролетта 1947, е серија исполнета со хумор и луди карактери, со класични комични елементи."
   },
   {
-    "id": "comic/23",
+    "id": "23",
     "Series": "Miss Fury",
     "Year": 1943,
     "Published": "December",
-    "Series Link": "https://www.comics.org/series/300/",
+    "SeriesLink": "https://www.comics.org/series/300/",
     "Cover": "comics/23.jpg",
-    "Price": 8
+    "Price": 8,
+    "Description": "Miss Fury, објавена во декември 1943, е иновациски женски суперхеројски комикс кој ги прикажува авантурите на храброто хероино."
   },
   {
-    "id": "comic/24",
+    "id": "24",
     "Series": "Stag",
     "Year": 1942,
     "Published": "August",
-    "Series Link": "https://www.comics.org/series/126741/",
+    "SeriesLink": "https://www.comics.org/series/126741/",
     "Cover": "comics/24.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Stag, комикс серија од август 1942, позната по своите храбри и авантуристички приказни, често поставени во диви и егзотични места."
   },
   {
-    "id": "comic/25",
+    "id": "25",
     "Series": "Terry-Toons",
     "Year": 1942,
     "Published": "October",
-    "Series Link": "https://www.comics.org/series/301/",
+    "SeriesLink": "https://www.comics.org/series/301/",
     "Cover": "comics/25.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "Terry-Toons, објавена во октомври 1942, ги прикажува класичните анимирани ликови од Terrytoons Studio во забавни и хумористични авантури."
   },
   {
-    "id": "comic/26",
+    "id": "26",
     "Series": "Tough Kid Squad",
     "Year": 1942,
     "Published": "December",
-    "Series Link": "https://www.comics.org/series/302/",
+    "SeriesLink": "https://www.comics.org/series/302/",
     "Cover": "comics/26.jpg",
-    "Price": 8
+    "Price": 8,
+    "Description": "Tough Kid Squad, комикс од декември 1942, следи група млади херои во возбудливи и акционни сценарија."
   },
   {
-    "id": "comic/27",
+    "id": "27",
     "Series": "Select Comics",
     "Year": 1942,
     "Published": "April",
-    "Series Link": "https://www.comics.org/series/129744/",
+    "SeriesLink": "https://www.comics.org/series/129744/",
     "Cover": "comics/27.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Select Comics, објавена во април 1942, е позната по своите различни супер-херојски приказни, кои вклучуваат уникатни ликови и возбудливи заплети."
   },
   {
-    "id": "comic/28",
+    "id": "28",
     "Series": "Ziggy Pig",
     "Year": 1944,
     "Published": "March",
-    "Series Link": "https://www.comics.org/series/92353/",
+    "SeriesLink": "https://www.comics.org/series/92353/",
     "Cover": "comics/28.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "Ziggy Pig, објавена во март 1944, е хумористична серија која ги следи лудориите на еден лукав свињи."
   },
   {
-    "id": "comic/29",
+    "id": "29",
     "Series": "Gayety 3",
     "Year": 1951,
     "Published": "December",
-    "Series Link": "https://www.comics.org/series/524/",
+    "SeriesLink": "https://www.comics.org/series/524/",
     "Cover": "comics/29.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Gayety 3, објавена во декември 1951, продолжува со комичниот и забавен тон на своите претходници, со смешни и лесни приказни."
   },
   {
     "id": "comic/30",
     "Series": "Kid Komics",
     "Year": 1954,
     "Published": "July",
-    "Series Link": "https://www.comics.org/series/1457/",
+    "SeriesLink": "https://www.comics.org/series/1457/",
     "Cover": "comics/30.jpg",
-    "Price": 10
+    "Price": 10,
+    "Description": "Kid Komics, објавена во јули 1954, е серија комикси наменета за помлади читатели, со забавни и авантуристички приказни за деца."
   },
   {
     "id": "comic/31",
     "Series": "Powerhouse Pepper",
     "Year": 1943,
     "Published": "April",
-    "Series Link": "https://www.comics.org/series/116368/",
+    "SeriesLink": "https://www.comics.org/series/116368/",
     "Cover": "comics/31.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Powerhouse Pepper, објавена во април 1943, е комикс серија позната по хумористичниот пристап кон секојдневниот живот на силен и издржлив лик."
   },
   {
-    "id": "comic/32",
+    "id": "32",
     "Series": "Salute",
     "Year": 1943,
     "Published": "February",
-    "Series Link": "https://www.comics.org/series/326/",
+    "SeriesLink": "https://www.comics.org/series/326/",
     "Cover": "comics/32.jpg",
-    "Price": 6
+    "Price": 6,
+    "Description": "Salute, објавена во февруари 1943, е патриотска комикс серија која им оддава почит на војниците и нивната храброст за време на Втората светска војна."
   },
   {
-    "id": "comic/33",
+    "id": "33",
     "Series": "Super Rabbit",
     "Year": 1945,
     "Published": "December",
-    "Series Link": "https://www.comics.org/series/380/",
+    "SeriesLink": "https://www.comics.org/series/380/",
     "Cover": "comics/33.jpg",
-    "Price": 10
+    "Price": 10,
+    "Description": "Super Rabbit, објавен во декември 1945, е хумористичен поглед на суперхеројскиот жанр, следејќи зајак со суперхумани способности."
   },
   {
-    "id": "comic/34",
+    "id": "34",
     "Series": "Amazing Comics",
     "Year": 1947,
     "Published": "February",
-    "Series Link": "https://www.comics.org/series/429/",
+    "SeriesLink": "https://www.comics.org/series/429/",
     "Cover": "comics/34.jpg",
-    "Price": 8
+    "Price": 8,
+    "Description": "Amazing Comics, објавена во февруари 1947, се карактеризира со разнолики херојски и акционни приказни со извонредни ликови."
   },
   {
-    "id": "comic/35",
+    "id": "35",
     "Series": "Comic Capers",
     "Year": 1944,
     "Published": "December",
-    "Series Link": "https://www.comics.org/series/381/",
+    "SeriesLink": "https://www.comics.org/series/381/",
     "Cover": "comics/35.jpg",
-    "Price": 9
+    "Price": 9,
+    "Description": "Comic Capers, објавена во декември 1944, е возбудлива и забавна серија која ги опфаќа различни возбудливи и авантуристички приказни."
   },
   {
-    "id": "comic/36",
+    "id": "36",
     "Series": "Complete Comics",
     "Year": 1948,
     "Published": "August",
-    "Series Link": "https://www.comics.org/series/428/",
+    "SeriesLink": "https://www.comics.org/series/428/",
     "Cover": "comics/36.jpg",
-    "Price": 7
+    "Price": 7,
+    "Description": "Complete Comics, објавена во август 1948, ги обединува најдобрите комикси во една серија, нудејќи читателите најширок избор на жанрови."
   }
 ]
