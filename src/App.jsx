@@ -8,6 +8,7 @@ import Comics from "./pages/Comics";
 import ComicDetails from "./pages/ComicDetails";
 import CartPage from "./pages/CartPage";
 import "./App.css";
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <Route path="/comics/:id" element={<ComicDetails />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/cart" element={<CartPage />} />
+              <Route path="/checkout" element={<Checkout />} />
             </Routes>
           </main>
           <Footer />
