@@ -31,9 +31,12 @@ export default function ComicDetail() {
   };
 
   return (
-    <div className="container mx-auto my-8">
-      <Link to="/comics" className="text-md text-gray-300 hover:text-gray-100">
-        Go Back
+    <div className="container mx-auto my-20">
+      <Link
+        to="/comics"
+        className="text-md text-gray-500 hover:text-gray-100 flex gap-2 items-center"
+      >
+        <i className="bx bx-arrow-back "></i> Go Back
       </Link>
       <h1 className="text-4xl font-bold text-center mb-4">{comic.Series}</h1>
       <div className="flex flex-col md:flex-row items-center">
@@ -62,7 +65,7 @@ export default function ComicDetail() {
               min="1"
               value={quantity}
               onChange={(e) => setQuantity(e.target.value)}
-              className="border border-gray-600 rounded py-1 px-2 w-20 text-gray-400 text-xl"
+              className="w-20 p-3 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-yellow-500"
             />
           </div>
           <button
