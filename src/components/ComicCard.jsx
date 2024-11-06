@@ -8,8 +8,10 @@ export default function ComicCard({ comic }) {
         className="h-48 w-full object-cover rounded"
       />
       <h2 className="text-lg font-bold mt-2">{comic.Series}</h2>
-      <p>Year: {comic.Year}</p>
-      <p>Published: {comic.Published}</p>
+      <p>
+        Published: {comic.Published} {comic.Year}
+      </p>
+      <p>Price: {comic.Price} den.</p>
     </div>
   );
 }
