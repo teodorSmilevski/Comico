@@ -68,11 +68,13 @@ export default function Comics() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredComics.length > 0 ? (
-          filteredComics.map((comic) => (
-            <Link key={comic.id} to={`/comics/${comic.id}`} className="block">
-              <ComicCard key={comic.id} comic={comic} />
-            </Link>
-          ))
+          filteredComics.map((comic) => {
+            return (
+              <Link key={comic.id} to={`/comics/${comic.id}`} className="block">
+                <ComicCard comic={comic} />
+              </Link>
+            );
+          })
         ) : (
           <p className="text-center text-gray-400 col-span-full">
             No filters match your filters

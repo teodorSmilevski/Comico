@@ -9,11 +9,13 @@ import ComicDetails from "./pages/ComicDetails";
 import CartPage from "./pages/CartPage";
 import "./App.css";
 import Checkout from "./components/Checkout";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <div className="flex flex-col min-h-screen bg-gray-900 text-white">
           <Header />
           <main className="flex-grow container mx-auto px-4">
