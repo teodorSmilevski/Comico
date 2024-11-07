@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import ComicCard from "../components/ComicCard";
 import comicData from "../assets/comics-data.json";
 export default function Comics() {
@@ -69,11 +68,7 @@ export default function Comics() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredComics.length > 0 ? (
           filteredComics.map((comic) => {
-            return (
-              <Link key={comic.id} to={`/comics/${comic.id}`} className="block">
-                <ComicCard comic={comic} />
-              </Link>
-            );
+            return <ComicCard key={comic.id} comic={comic} />;
           })
         ) : (
           <p className="text-center text-gray-400 col-span-full">

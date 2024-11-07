@@ -1,7 +1,7 @@
 import WhyUsFeature from "./WhyUsFeature";
 export default function WhyUs() {
   return (
-    <div className="bg-gray-800 text-white py-24 px-4">
+    <div className="bg-gray-800 text-white py-24 px-4 mb-10">
       <div className="container mx-auto text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-400">
           Why Choose Us?

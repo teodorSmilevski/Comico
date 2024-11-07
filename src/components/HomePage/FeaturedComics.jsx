@@ -28,9 +28,9 @@ export default function FeaturedComics() {
           })}
         </div>
 
-        <div className="text-center mt-10">
+        <div className="text-center">
           <Link to="/comics">
-            <button className="bg-red-500 text-white py-2 px-6 rounded-full mb-4 hover:bg-red-600">
+            <button className="bg-yellow-500 text-black py-2 px-6 rounded-full mt-10 hover:bg-yellow-600">
               See More
             </button>
           </Link>

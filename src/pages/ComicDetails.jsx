@@ -1,34 +1,17 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
-import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import comicData from "../assets/comics-data.json";
-
+import AddToCartBtn from "../components/AddToCartBtn";
 export default function ComicDetail() {
   const { id } = useParams();
 
   const comic = comicData.find((comic) => comic.id === id);
   const [quantity, setQuantity] = useState(1);
 
-  const { dispatch } = useCart();
-
   if (!comic) {
     return <div>Comic not found!</div>;
   }
-
-  const handleAddToCart = () => {
-    dispatch({
-      type: "ADD_TO_CART",
-      payload: {
-        id: comic.id,
-        series: comic.Series,
-        price: comic.Price,
-        quantity,
-      },
-    });
-
-    console.log(`Added ${quantity} of ${comic.Series} to the cart.`);
-  };
 
   return (
     <div className="container mx-auto my-20">
@@ -43,7 +26,7 @@ export default function ComicDetail() {
         <img
           src={`/${comic.Cover}`}
           alt={comic.Series}
-          className="h-96 w-auto object-cover rounded shadow-lg mx-auto mb-4 md:mb-0 md:mr-8"
+          className="h-[30rem] w-auto object-cover rounded shadow-lg mx-auto mb-4 md:mb-0 md:mr-8"
         />
         <div className="flex-1">
           <p className="text-lg">
@@ -68,12 +51,7 @@ export default function ComicDetail() {
               className="w-20 p-3 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-yellow-500"
             />
           </div>
-          <button
-            onClick={handleAddToCart}
-            className="mt-4 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
-          >
-            Add to Cart
-          </button>
+          <AddToCartBtn comic={comic} quantity={quantity} />
           <div className="mt-4">
             <a
               href={comic.SeriesLink}
