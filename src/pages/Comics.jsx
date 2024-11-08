@@ -1,10 +1,14 @@
 import { useState } from "react";
 import ComicCard from "../components/ComicCard";
 import comicData from "../assets/comics-data.json";
+import ComicFilters from "../components/ComicFilters";
 export default function Comics() {
   const [priceFilter, setPriceFilter] = useState("");
   const [yearFilter, setYearFilter] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const comicsPerPage = 12;
 
+  // Filtering comics
   const filteredComics = comicData.filter((comic) => {
     const matchPrice = priceFilter
       ? comic.Price <= parseFloat(priceFilter)
@@ -26,48 +30,31 @@ export default function Comics() {
     setPriceFilter("");
     setYearFilter("");
   }
+
+  // Pagination
+  const indexLast = currentPage * comicsPerPage;
+  const indexFirst = indexLast - comicsPerPage;
+  const currentComics = filteredComics.slice(indexFirst, indexLast);
+
+  function handlePagination(pageNum) {
+    setCurrentPage(pageNum);
+  }
+  const totalPages = Math.ceil(filteredComics.length / comicsPerPage);
+
   return (
     <div className="my-20">
       <h1 className="text-3xl font-bold  mb-4">Our Comics</h1>
-      <div className="flex flex-col md:flex-row gap-4 mb-8">
-        <input
-          type="number"
-          placeholder="Max Price"
-          value={priceFilter}
-          onChange={handlePriceChange}
-          className="w-full md:w-1/4 p-3 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-yellow-500"
-        />
 
-        <select
-          value={yearFilter}
-          onChange={handleYearChange}
-          className="w-full md:w-1/4 p-3 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-yellow-500"
-        >
-          <option value="">All Years</option>
-          <option value="1939">1939</option>
-          <option value="1940">1940</option>
-          <option value="1941">1941</option>
-          <option value="1942">1942</option>
-          <option value="1943">1943</option>
-          <option value="1944">1944</option>
-          <option value="1945">1945</option>
-          <option value="1947">1947</option>
-          <option value="1948">1948</option>
-          <option value="1951">1951</option>
-          <option value="1954">1954</option>
-          <option value="1985">1985</option>
-        </select>
-        <button
-          onClick={handleClearFilters}
-          className="text-stone-400 hover:text-stone-100"
-        >
-          Clear Filters
-        </button>
-      </div>
+      <ComicFilters
+        priceFilter={priceFilter}
+        handlePriceChange={handlePriceChange}
+        handleYearChange={handleYearChange}
+        handleClearFilters={handleClearFilters}
+      />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredComics.length > 0 ? (
-          filteredComics.map((comic) => {
+        {currentComics.length > 0 ? (
+          currentComics.map((comic) => {
             return <ComicCard key={comic.id} comic={comic} />;
           })
         ) : (
@@ -75,6 +62,38 @@ export default function Comics() {
             No filters match your filters
           </p>
         )}
+      </div>
+
+      <div className="flex justify-center items-center mt-6">
+        <button
+          onClick={() => handlePagination(currentPage - 1)}
+          disabled={currentPage === 1}
+          className="px-4 py-2 disabled:text-gray-500 hover:text-gray-400 flex items-center"
+        >
+          <i className="bx bx-chevron-left bx-sm"></i>
+        </button>
+
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index + 1}
+            onClick={() => handlePagination(index + 1)}
+            className={`px-4 py-2 ${
+              currentPage === index + 1
+                ? " text-white hover:text-gray-300"
+                : " text-gray-500 hover:text-gray-400"
+            } rounded text-lg `}
+          >
+            {index + 1}
+          </button>
+        ))}
+
+        <button
+          onClick={() => handlePagination(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className="px-4 py-2 flex items-center disabled:text-gray-500 "
+        >
+          <i className="bx bx-chevron-right bx-sm"></i>
+        </button>
       </div>
     </div>
   );

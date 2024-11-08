@@ -24,7 +24,11 @@ export default function ComicCard({ comic }) {
             <p className=" text-gray-400">Price: {comic.Price} den.</p>
           </div>
         </Link>
-        <AddToCartBtn comic={comic} quantity={1} />
+        <AddToCartBtn
+          comic={comic}
+          quantity={1}
+          text={<i className="bx bx-cart"></i>}
+        />
       </div>
     </div>
   );

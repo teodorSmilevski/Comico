@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useCart } from "../context/CartContext";
 
-export default function AddToCartBtn({ comic, quantity }) {
+export default function AddToCartBtn({ comic, quantity, text }) {
   const { dispatch } = useCart();
 
   const handleAddToCart = () => {
@@ -23,7 +23,7 @@ export default function AddToCartBtn({ comic, quantity }) {
       onClick={handleAddToCart}
       className="mt-4 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded text-sm"
     >
-      Add to Cart
+      {text}
     </button>
   );
 }

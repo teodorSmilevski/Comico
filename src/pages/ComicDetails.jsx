@@ -51,7 +51,11 @@ export default function ComicDetail() {
               className="w-20 p-3 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-yellow-500"
             />
           </div>
-          <AddToCartBtn comic={comic} quantity={quantity} />
+          <AddToCartBtn
+            comic={comic}
+            quantity={quantity}
+            text={`Add to cart`}
+          />
           <div className="mt-4">
             <a
               href={comic.SeriesLink}

@@ -20,11 +20,7 @@ export default function FeaturedComics() {
 
         <div className="grid gap-8 md:grid-cols-3">
           {latestComics.map((comic) => {
-            return (
-              <Link key={comic.id} to={`/comics/${comic.id}`} className="block">
-                <ComicCard comic={comic} />
-              </Link>
-            );
+            return <ComicCard key={comic.id} comic={comic} />;
           })}
         </div>
 
