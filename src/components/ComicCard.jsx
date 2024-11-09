@@ -21,7 +21,7 @@ export default function ComicCard({ comic }) {
             <p className=" text-gray-400">
               Published: {comic.Published} {comic.Year}
             </p>
-            <p className=" text-gray-400">Price: {comic.Price} den.</p>
+            <p className=" text-gray-400">Price: ${comic.Price}</p>
           </div>
         </Link>
         <AddToCartBtn

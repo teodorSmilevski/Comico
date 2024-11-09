@@ -6,8 +6,10 @@
     "Published": "October",
     "SeriesLink": "https://www.comics.org/series/136/",
     "Cover": "comics/1.jpg",
-    "Price": 6,
-    "Description": "Стрипот 'Marvel Comics' е објавен во 1939 година и содржи иконични ликови од Marvel универзумот. Објавен е во октомври, и може да се најде на официјалниот линк."
+    "Price": 13,
+    "Description": "Стрипот 'Marvel Comics' е објавен во 1939 година и содржи иконични ликови од Marvel универзумот. Објавен е во октомври, и може да се најде на официјалниот линк.",
+    "genre": "Superhero",
+    "stock": 3
   },
   {
     "id": "2",
@@ -16,8 +18,10 @@
     "Published": "December",
     "SeriesLink": "https://www.comics.org/series/137/",
     "Cover": "comics/2.jpg",
-    "Price": 9,
-    "Description": "Marvel Mystery стрипот е дел од Marvel сериите и е објавен во декември 1939 година. Претставува мистични и авантуристички приказни."
+    "Price": 11,
+    "Description": "Marvel Mystery стрипот е дел од Marvel сериите и е објавен во декември 1939 година. Претставува мистични и авантуристички приказни.",
+    "genre": "Mystery",
+    "stock": 9
   },
   {
     "id": "3",
@@ -26,8 +30,10 @@
     "Published": "January",
     "SeriesLink": "https://www.comics.org/series/177/",
     "Cover": "comics/3.jpg",
-    "Price": 7,
-    "Description": "Daring Mystery стрипот е издаден во јануари 1940 година и претставува серија со мистични елементи и херојски авантури."
+    "Price": 10,
+    "Description": "Daring Mystery стрипот е издаден во јануари 1940 година и претставува серија со мистични елементи и херојски авантури.",
+    "genre": "Mystery",
+    "stock": 7
   },
   {
     "id": "4",
@@ -36,8 +42,10 @@
     "Published": "August",
     "SeriesLink": "https://www.comics.org/series/178/",
     "Cover": "comics/4.jpg",
-    "Price": 10,
-    "Description": "Daring Comics, објавен во август 1940 година, е популарен стрип со интересни херојски наративи."
+    "Price": 11,
+    "Description": "Daring Comics, објавен во август 1940 година, е популарен стрип со интересни херојски наративи.",
+    "genre": "Superhero",
+    "stock": 2
   },
   {
     "id": "5",
@@ -46,8 +54,10 @@
     "Published": "March",
     "SeriesLink": "https://www.comics.org/series/179/",
     "Cover": "comics/5.jpg",
-    "Price": 8,
-    "Description": "Mystic Comics се појавува во март 1940 година и ја истражува магијата и мистиката во стрипот."
+    "Price": 10,
+    "Description": "Mystic Comics се појавува во март 1940 година и ја истражува магијата и мистиката во стрипот.",
+    "genre": "Fantasy",
+    "stock": 1
   },
   {
     "id": "6",
@@ -56,8 +66,10 @@
     "Published": "August",
     "SeriesLink": "https://www.comics.org/series/180/",
     "Cover": "comics/6.jpg",
-    "Price": 9,
-    "Description": "Mystic Comics 2 продолжува со мистичните теми од претходната серија, со нови авантури и откритија."
+    "Price": 15,
+    "Description": "Mystic Comics 2 продолжува со мистичните теми од претходната серија, со нови авантури и откритија.",
+    "genre": "Adventure",
+    "stock": 5
   },
   {
     "id": "7",
@@ -66,8 +78,10 @@
     "Published": "January",
     "SeriesLink": "https://www.comics.org/series/111924/",
     "Cover": "comics/7.jpg",
-    "Price": 5,
-    "Description": "Red Raven е објавен во јануари 1943 година и ги истражува авантурите на ликот Red Raven."
+    "Price": 14,
+    "Description": "Red Raven е објавен во јануари 1943 година и ги истражува авантурите на ликот Red Raven.",
+    "genre": "Superhero",
+    "stock": 8
   },
   {
     "id": "8",
@@ -76,8 +90,10 @@
     "Published": "June",
     "SeriesLink": "https://www.comics.org/series/236/",
     "Cover": "comics/8.jpg",
-    "Price": 7,
-    "Description": "All-Winners стрипот ги обединува најпознатите Marvel хероји и ги прикажува нивните авантури."
+    "Price": 13,
+    "Description": "All-Winners стрипот ги обединува најпознатите Marvel хероји и ги прикажува нивните авантури.",
+    "genre": "Superhero",
+    "stock": 4
   },
   {
     "id": "9",
@@ -86,8 +102,10 @@
     "Published": "March",
     "SeriesLink": "https://www.comics.org/series/237/",
     "Cover": "comics/9.jpg",
-    "Price": 6,
-    "Description": "Captain America стрипот е издаден во март 1941 година и ја следи приказната на еден од најпознатите Marvel хероји."
+    "Price": 12,
+    "Description": "Captain America стрипот е издаден во март 1941 година и ја следи приказната на еден од најпознатите Marvel хероји.",
+    "genre": "Superhero",
+    "stock": 10
   },
   {
     "id": "10",
@@ -96,8 +114,10 @@
     "Published": "September",
     "SeriesLink": "https://www.comics.org/series/95255/",
     "Cover": "comics/10.jpg",
-    "Price": 5,
-    "Description": "Gayety стрипот беше објавен во септември 1985 година и има фокус на комични и забавни настани."
+    "Price": 11,
+    "Description": "Gayety стрипот беше објавен во септември 1985 година и има фокус на комични и забавни настани.",
+    "genre": "Fantasy",
+    "stock": 0
   },
   {
     "id": "11",
@@ -106,8 +126,10 @@
     "Published": "July",
     "SeriesLink": "https://www.comics.org/series/76190/",
     "Cover": "comics/11.jpg",
-    "Price": 9,
-    "Description": "Jest стрипот е издаден во јули 1941 година и носи интересни и хумористични авантури."
+    "Price": 13,
+    "Description": "Jest стрипот е издаден во јули 1941 година и носи интересни и хумористични авантури.",
+    "genre": "Fantasy",
+    "stock": 7
   },
   {
     "id": "12",
@@ -116,8 +138,10 @@
     "Published": "October",
     "SeriesLink": "https://www.comics.org/series/92580/",
     "Cover": "comics/12.jpg",
-    "Price": 10,
-    "Description": "Joker стрипот е објавен во октомври 1941 година и претставува една од најпознатите злосторнички личности во историјата на стриповите."
+    "Price": 12,
+    "Description": "Joker стрипот е објавен во октомври 1941 година и претставува една од најпознатите злосторнички личности во историјата на стриповите.",
+    "genre": "Mystery",
+    "stock": 3
   },
   {
     "id": "13",
@@ -126,8 +150,10 @@
     "Published": "Spring",
     "SeriesLink": "https://www.comics.org/series/239/",
     "Cover": "comics/13.jpg",
-    "Price": 8,
-    "Description": "Sub-Mariner стрипот, објавен во пролетта 1941 година, го прикажува херојот Sub-Mariner, подводниот херој."
+    "Price": 15,
+    "Description": "Sub-Mariner стрипот, објавен во пролетта 1941 година, го прикажува херојот Sub-Mariner, подводниот херој.",
+    "genre": "Superhero",
+    "stock": 5
   },
   {
     "id": "14",
@@ -136,8 +162,10 @@
     "Published": "August",
     "SeriesLink": "https://www.comics.org/series/240/",
     "Cover": "comics/14.jpg",
-    "Price": 8,
-    "Description": "USA Comics стрипот, издаден во август 1941 година, ја прикажува Америка во борба против злото."
+    "Price": 12,
+    "Description": "USA Comics стрипот, издаден во август 1941 година, ја прикажува Америка во борба против злото.",
+    "genre": "Adventure",
+    "stock": 8
   },
   {
     "id": "15",
@@ -146,8 +174,10 @@
     "Published": "October",
     "SeriesLink": "https://www.comics.org/series/241/",
     "Cover": "comics/15.jpg",
-    "Price": 7,
-    "Description": "Young Allies стрипот, издаден во октомври 1941 година, ја прикажува младата група херои кои се бореа против злото."
+    "Price": 10,
+    "Description": "Young Allies стрипот, издаден во октомври 1941 година, ја прикажува младата група херои кои се бореа против злото.",
+    "genre": "Superhero",
+    "stock": 6
   },
   {
     "id": "16",
@@ -156,8 +186,10 @@
     "Published": "September",
     "SeriesLink": "https://www.comics.org/series/109677/",
     "Cover": "comics/16.jpg",
-    "Price": 6,
-    "Description": "Zippy стрипот, издаден во септември 1941 година, се фокусира на авантурите на Zippy."
+    "Price": 11,
+    "Description": "Zippy стрипот, издаден во септември 1941 година, се фокусира на авантурите на Zippy.",
+    "genre": "Fantasy",
+    "stock": 2
   },
   {
     "id": "17",
@@ -166,8 +198,10 @@
     "Published": "February",
     "SeriesLink": "https://www.comics.org/series/59152/",
     "Cover": "comics/17.jpg",
-    "Price": 9,
-    "Description": "Captain America стрипот, издаден во февруари 1942 година, продолжува со истражување на борбата против фашизмот."
+    "Price": 14,
+    "Description": "Captain America стрипот, издаден во февруари 1942 година, продолжува со истражување на борбата против фашизмот.",
+    "genre": "Adventure",
+    "stock": 10
   },
   {
     "id": "18",
@@ -176,8 +210,10 @@
     "Published": "January",
     "SeriesLink": "https://www.comics.org/series/116073/",
     "Cover": "comics/18.jpg",
-    "Price": 5,
-    "Description": "Comedy стрипот издаден во јануари 1942 година, е полн со хумористични и забавни настани."
+    "Price": 13,
+    "Description": "Comedy стрипот издаден во јануари 1942 година, е полн со хумористични и забавни настани.",
+    "genre": "Fantasy",
+    "stock": 4
   },
   {
     "id": "19",
@@ -186,8 +222,10 @@
     "Published": "April",
     "SeriesLink": "https://www.comics.org/series/128082/",
     "Cover": "comics/19.jpg",
-    "Price": 8,
-    "Description": "Comedy Comics стрипот, објавен во април 1942 година, продолжува со забавни и хумористични приказни."
+    "Price": 12,
+    "Description": "Comedy Comics стрипот, објавен во април 1942 година, продолжува со забавни и хумористични приказни.",
+    "genre": "Mystery",
+    "stock": 1
   },
 
   {
@@ -197,8 +235,10 @@
     "Published": "Spring",
     "SeriesLink": "https://www.comics.org/series/75375/",
     "Cover": "comics/20.jpg",
-    "Price": 7,
-    "Description": "Комикс серијата 'Joker', објавена во Пролет 1942, го претставува познатиот негативец Joker во различни лукави и криминални подухвати."
+    "Price": 11,
+    "Description": "Комикс серијата 'Joker', објавена во Пролет 1942, го претставува познатиот негативец Joker во различни лукави и криминални подухвати.",
+    "genre": "Mystery",
+    "stock": 4
   },
   {
     "id": "21",
@@ -207,8 +247,10 @@
     "Published": "April",
     "SeriesLink": "https://www.comics.org/series/298/",
     "Cover": "comics/21.jpg",
-    "Price": 9,
-    "Description": "Joker Comics, објавена во април 1942, ја истражува понатамошната улога на Joker како еден од најголемите злосторници."
+    "Price": 10,
+    "Description": "Joker Comics, објавена во април 1942, ја истражува понатамошната улога на Joker како еден од најголемите злосторници.",
+    "genre": "Adventure",
+    "stock": 2
   },
   {
     "id": "22",
@@ -217,8 +259,10 @@
     "Published": "July 1942 - Spring 1947",
     "SeriesLink": "https://www.comics.org/series/299/",
     "Cover": "comics/22.jpg",
-    "Price": 6,
-    "Description": "Krazy Komics, која излегува од јули 1942 до пролетта 1947, е серија исполнета со хумор и луди карактери, со класични комични елементи."
+    "Price": 14,
+    "Description": "Krazy Komics, која излегува од јули 1942 до пролетта 1947, е серија исполнета со хумор и луди карактери, со класични комични елементи.",
+    "genre": "Fantasy",
+    "stock": 7
   },
   {
     "id": "23",
@@ -227,8 +271,10 @@
     "Published": "December",
     "SeriesLink": "https://www.comics.org/series/300/",
     "Cover": "comics/23.jpg",
-    "Price": 8,
-    "Description": "Miss Fury, објавена во декември 1943, е иновациски женски суперхеројски комикс кој ги прикажува авантурите на храброто хероино."
+    "Price": 15,
+    "Description": "Miss Fury, објавена во декември 1943, е иновациски женски суперхеројски комикс кој ги прикажува авантурите на храброто хероино.",
+    "genre": "Superhero",
+    "stock": 9
   },
   {
     "id": "24",
@@ -237,8 +283,10 @@
     "Published": "August",
     "SeriesLink": "https://www.comics.org/series/126741/",
     "Cover": "comics/24.jpg",
-    "Price": 6,
-    "Description": "Stag, комикс серија од август 1942, позната по своите храбри и авантуристички приказни, често поставени во диви и егзотични места."
+    "Price": 14,
+    "Description": "Stag, комикс серија од август 1942, позната по своите храбри и авантуристички приказни, често поставени во диви и егзотични места.",
+    "genre": "Adventure",
+    "stock": 6
   },
   {
     "id": "25",
@@ -247,8 +295,10 @@
     "Published": "October",
     "SeriesLink": "https://www.comics.org/series/301/",
     "Cover": "comics/25.jpg",
-    "Price": 7,
-    "Description": "Terry-Toons, објавена во октомври 1942, ги прикажува класичните анимирани ликови од Terrytoons Studio во забавни и хумористични авантури."
+    "Price": 13,
+    "Description": "Terry-Toons, објавена во октомври 1942, ги прикажува класичните анимирани ликови од Terrytoons Studio во забавни и хумористични авантури.",
+    "genre": "Fantasy",
+    "stock": 8
   },
   {
     "id": "26",
@@ -257,8 +307,10 @@
     "Published": "December",
     "SeriesLink": "https://www.comics.org/series/302/",
     "Cover": "comics/26.jpg",
-    "Price": 8,
-    "Description": "Tough Kid Squad, комикс од декември 1942, следи група млади херои во возбудливи и акционни сценарија."
+    "Price": 6,
+    "Description": "Tough Kid Squad, комикс од декември 1942, следи група млади херои во возбудливи и акционни сценарија.",
+    "genre": "Superhero",
+    "stock": 10
   },
   {
     "id": "27",
@@ -267,8 +319,10 @@
     "Published": "April",
     "SeriesLink": "https://www.comics.org/series/129744/",
     "Cover": "comics/27.jpg",
-    "Price": 6,
-    "Description": "Select Comics, објавена во април 1942, е позната по своите различни супер-херојски приказни, кои вклучуваат уникатни ликови и возбудливи заплети."
+    "Price": 5,
+    "Description": "Select Comics, објавена во април 1942, е позната по своите различни супер-херојски приказни, кои вклучуваат уникатни ликови и возбудливи заплети.",
+    "genre": "Mystery",
+    "stock": 3
   },
   {
     "id": "28",
@@ -277,9 +331,12 @@
     "Published": "March",
     "SeriesLink": "https://www.comics.org/series/92353/",
     "Cover": "comics/28.jpg",
-    "Price": 7,
-    "Description": "Ziggy Pig, објавена во март 1944, е хумористична серија која ги следи лудориите на еден лукав свињи."
+    "Price": 5,
+    "Description": "Ziggy Pig, објавена во март 1944, е хумористична серија која ги следи лудориите на еден лукав свињи.",
+    "genre": "Fantasy",
+    "stock": 1
   },
+
   {
     "id": "29",
     "Series": "Gayety 3",
@@ -288,7 +345,9 @@
     "SeriesLink": "https://www.comics.org/series/524/",
     "Cover": "comics/29.jpg",
     "Price": 9,
-    "Description": "Gayety 3, објавена во декември 1951, продолжува со комичниот и забавен тон на своите претходници, со смешни и лесни приказни."
+    "Description": "Gayety 3, објавена во декември 1951, продолжува со комичниот и забавен тон на своите претходници, со смешни и лесни приказни.",
+    "genre": "Comedy",
+    "stock": 5
   },
   {
     "id": "30",
@@ -297,8 +356,10 @@
     "Published": "July",
     "SeriesLink": "https://www.comics.org/series/1457/",
     "Cover": "comics/30.jpg",
-    "Price": 10,
-    "Description": "Kid Komics, објавена во јули 1954, е серија комикси наменета за помлади читатели, со забавни и авантуристички приказни за деца."
+    "Price": 8,
+    "Description": "Kid Komics, објавена во јули 1954, е серија комикси наменета за помлади читатели, со забавни и авантуристички приказни за деца.",
+    "genre": "Adventure",
+    "stock": 6
   },
   {
     "id": "31",
@@ -307,8 +368,10 @@
     "Published": "April",
     "SeriesLink": "https://www.comics.org/series/116368/",
     "Cover": "comics/31.jpg",
-    "Price": 9,
-    "Description": "Powerhouse Pepper, објавена во април 1943, е комикс серија позната по хумористичниот пристап кон секојдневниот живот на силен и издржлив лик."
+    "Price": 7,
+    "Description": "Powerhouse Pepper, објавена во април 1943, е комикс серија позната по хумористичниот пристап кон секојдневниот живот на силен и издржлив лик.",
+    "genre": "Comedy",
+    "stock": 4
   },
   {
     "id": "32",
@@ -318,7 +381,9 @@
     "SeriesLink": "https://www.comics.org/series/326/",
     "Cover": "comics/32.jpg",
     "Price": 6,
-    "Description": "Salute, објавена во февруари 1943, е патриотска комикс серија која им оддава почит на војниците и нивната храброст за време на Втората светска војна."
+    "Description": "Salute, објавена во февруари 1943, е патриотска комикс серија која им оддава почит на војниците и нивната храброст за време на Втората светска војна.",
+    "genre": "War",
+    "stock": 7
   },
   {
     "id": "33",
@@ -327,8 +392,10 @@
     "Published": "December",
     "SeriesLink": "https://www.comics.org/series/380/",
     "Cover": "comics/33.jpg",
-    "Price": 10,
-    "Description": "Super Rabbit, објавен во декември 1945, е хумористичен поглед на суперхеројскиот жанр, следејќи зајак со суперхумани способности."
+    "Price": 6,
+    "Description": "Super Rabbit, објавен во декември 1945, е хумористичен поглед на суперхеројскиот жанр, следејќи зајак со суперхумани способности.",
+    "genre": "Superhero",
+    "stock": 3
   },
   {
     "id": "34",
@@ -337,8 +404,10 @@
     "Published": "February",
     "SeriesLink": "https://www.comics.org/series/429/",
     "Cover": "comics/34.jpg",
-    "Price": 8,
-    "Description": "Amazing Comics, објавена во февруари 1947, се карактеризира со разнолики херојски и акционни приказни со извонредни ликови."
+    "Price": 7,
+    "Description": "Amazing Comics, објавена во февруари 1947, се карактеризира со разнолики херојски и акционни приказни со извонредни ликови.",
+    "genre": "Adventure",
+    "stock": 8
   },
   {
     "id": "35",
@@ -347,8 +416,10 @@
     "Published": "December",
     "SeriesLink": "https://www.comics.org/series/381/",
     "Cover": "comics/35.jpg",
-    "Price": 9,
-    "Description": "Comic Capers, објавена во декември 1944, е возбудлива и забавна серија која ги опфаќа различни возбудливи и авантуристички приказни."
+    "Price": 8,
+    "Description": "Comic Capers, објавена во декември 1944, е возбудлива и забавна серија која ги опфаќа различни возбудливи и авантуристички приказни.",
+    "genre": "Adventure",
+    "stock": 2
   },
   {
     "id": "36",
@@ -357,7 +428,9 @@
     "Published": "August",
     "SeriesLink": "https://www.comics.org/series/428/",
     "Cover": "comics/36.jpg",
-    "Price": 7,
-    "Description": "Complete Comics, објавена во август 1948, ги обединува најдобрите комикси во една серија, нудејќи читателите најширок избор на жанрови."
+    "Price": 9,
+    "Description": "Complete Comics, објавена во август 1948, ги обединува најдобрите комикси во една серија, нудејќи читателите најширок избор на жанрови.",
+    "genre": "Compilation",
+    "stock": 9
   }
 ]

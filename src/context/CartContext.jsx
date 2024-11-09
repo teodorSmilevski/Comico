@@ -15,7 +15,6 @@ const cartReducer = (state, action) => {
         (item) => item.id === action.payload.id
       );
       if (existingItem) {
-        // If the item already exists, update its quantity
         return {
           ...state,
           items: state.items.map((item) =>
@@ -25,7 +24,6 @@ const cartReducer = (state, action) => {
           ),
         };
       } else {
-        // If the item is new, add it to the cart
         return {
           ...state,
           items: [

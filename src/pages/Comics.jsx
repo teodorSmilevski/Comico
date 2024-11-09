@@ -2,9 +2,11 @@ import { useState } from "react";
 import ComicCard from "../components/ComicCard";
 import comicData from "../assets/comics-data.json";
 import ComicFilters from "../components/ComicFilters";
+import Pagination from "../components/Comics/Pagination";
 export default function Comics() {
   const [priceFilter, setPriceFilter] = useState("");
   const [yearFilter, setYearFilter] = useState("");
+  const [genreFilter, setGenreFilter] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const comicsPerPage = 12;
 
@@ -14,9 +16,14 @@ export default function Comics() {
       ? comic.Price <= parseFloat(priceFilter)
       : true;
     const matchYear = yearFilter ? comic.Year == parseInt(yearFilter) : true;
+    const matchGenre = genreFilter ? comic.genre === genreFilter : true;
 
-    return matchPrice && matchYear;
+    return matchPrice && matchYear && matchGenre;
   });
+
+  function handleGenreChange(e) {
+    setGenreFilter(e.target.value);
+  }
 
   function handlePriceChange(e) {
     setPriceFilter(e.target.value);
@@ -47,8 +54,10 @@ export default function Comics() {
 
       <ComicFilters
         priceFilter={priceFilter}
+        genreFilter={genreFilter}
         handlePriceChange={handlePriceChange}
         handleYearChange={handleYearChange}
+        handleGenreChange={handleGenreChange}
         handleClearFilters={handleClearFilters}
       />
 
@@ -58,43 +67,19 @@ export default function Comics() {
             return <ComicCard key={comic.id} comic={comic} />;
           })
         ) : (
-          <p className="text-center text-gray-400 col-span-full">
-            No filters match your filters
+          <p className="text-center text-gray-400 col-span-full h0">
+            No results match your filters
           </p>
         )}
       </div>
 
-      <div className="flex justify-center items-center mt-6">
-        <button
-          onClick={() => handlePagination(currentPage - 1)}
-          disabled={currentPage === 1}
-          className="px-4 py-2 disabled:text-gray-500 hover:text-gray-400 flex items-center"
-        >
-          <i className="bx bx-chevron-left bx-sm"></i>
-        </button>
-
-        {Array.from({ length: totalPages }, (_, index) => (
-          <button
-            key={index + 1}
-            onClick={() => handlePagination(index + 1)}
-            className={`px-4 py-2 ${
-              currentPage === index + 1
-                ? " text-white hover:text-gray-300"
-                : " text-gray-500 hover:text-gray-400"
-            } rounded text-lg `}
-          >
-            {index + 1}
-          </button>
-        ))}
-
-        <button
-          onClick={() => handlePagination(currentPage + 1)}
-          disabled={currentPage === totalPages}
-          className="px-4 py-2 flex items-center disabled:text-gray-500 "
-        >
-          <i className="bx bx-chevron-right bx-sm"></i>
-        </button>
-      </div>
+      {currentComics.length > 0 && (
+        <Pagination
+          handlePagination={handlePagination}
+          currentPage={currentPage}
+          totalPages={totalPages}
+        />
+      )}
     </div>
   );
 }
