@@ -9,7 +9,6 @@ export default function FeaturedComics() {
     comicsData[n - 2],
     comicsData[n - 3],
   ];
-  console.log(latestComics);
 
   return (
     <section className="bg-gray-900 text-white py-32 px-4">

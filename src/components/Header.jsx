@@ -24,8 +24,12 @@ export default function Header() {
           <Link to="/comics" className="hover:text-yellow-400">
             Comics
           </Link>
-          <Link to="/gallery" className="hover:text-yellow-400">
-            Gallery
+          <Link
+            to="https://www.marvel.com/movies"
+            className="hover:text-yellow-400"
+            target="_blank"
+          >
+            Movies
           </Link>
           <Link to="/cart" className="hover:text-yellow-400">
             <i className="bx bx-cart bx-sm"></i>
@@ -79,11 +83,12 @@ export default function Header() {
               Comics
             </Link>
             <Link
-              to="/gallery"
+              to="https://www.marvel.com/movies"
               onClick={toggleMenu}
               className="hover:text-yellow-400"
+              target="_blank"
             >
-              Gallery
+              Movies
             </Link>
           </div>
         </div>

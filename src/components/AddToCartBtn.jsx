@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useCart } from "../context/CartContext";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 export default function AddToCartBtn({ comic, quantity, text, disabled }) {
   const { dispatch } = useCart();
@@ -14,6 +14,18 @@ export default function AddToCartBtn({ comic, quantity, text, disabled }) {
         price: comic.Price,
         quantity,
       },
+    });
+    toast.success(`${comic.Series} added to cart!`, {
+      style: {
+        backgroundColor: "#1f2937",
+        color: "#ffffff",
+      },
+      progressClassName: "bg-yellow-500",
+      draggable: true,
+      hideProgressBar: false,
+      autoClose: 2000,
+      position: "bottom-right",
+      pauseOnHover: false,
     });
   };
 

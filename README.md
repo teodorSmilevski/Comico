@@ -1,16 +1,15 @@
-# Comico - Продавница за стрипови
+# Comico - Comic Book Store
 
-**Comico** е веб-апликација за онлајн купување стрипови, развиена како дел од проект за предметот **Деловни информациски системи**. Апликацијата има за цел да им овозможи на корисниците лесен пристап до популарни и ретки изданија на стрипови преку модерен и интуитивен интерфејс.
+**Comico** is a web application for online comic book shopping, developed as part of a project for the **Business Information Systems** course. The application aims to provide users with easy access to popular and rare comic editions through a modern and intuitive interface.
 
-## Функционалности
+## Features
 
-- **Преглед на стрипови**: Прелистајте ги сите достапни стрипови со визуелно пријатен и лесен за користење интерфејс.
-- **Филтрирање**: Филтрирајте стрипови по жанр, автор или цена за побрзо пронаоѓање на интересни содржини.
-- **Пребарување**: Пребарувајте стрипови по наслов за лесно наоѓање на омилените изданија.
-- **Кошничка**: Додавајте стрипови во кошничката и прегледувајте ја пред нарачка.
-- **Процес на нарачка**: Едноставен и сигурен процес за финализирање на нарачката.
+- **Comic Browsing**: Browse all available comics with a visually pleasing and user-friendly interface.
+- **Filtering**: Filter comics by genre,year, or price to quickly find interesting content.
+- **Cart**: Add comics to your cart and review it before ordering.
+- **Checkout Process**: Simple and secure process to finalize your order.
 
-## Технологии
+## Technologies
 
-- **React** за динамичен и интерактивен кориснички интерфејс
-- **Tailwind CSS** за модерен и одзивен дизајн
+- **React** for a dynamic and interactive user interface
+- **Tailwind CSS** for a modern and responsive design

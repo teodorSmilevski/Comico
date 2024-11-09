@@ -21,8 +21,12 @@ export default function Footer() {
           <Link to="/comics" className="hover:text-yellow-400">
             Comics
           </Link>
-          <Link to="/gallery" className="hover:text-yellow-400">
-            Gallery
+          <Link
+            to="https://www.marvel.com/movies"
+            className="hover:text-yellow-400"
+            target="_blank"
+          >
+            Movies
           </Link>
         </div>
 
