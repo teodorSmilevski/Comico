@@ -2,6 +2,7 @@ import HeroSection from "../components/HomePage/HeroSection";
 import FeaturedComics from "../components/HomePage/FeaturedComics";
 import PromotionalBanner from "../components/HomePage/PromotionalBanner";
 import WhyUs from "../components/HomePage/WhyUs";
+import AuthorSpotlight from "../components/HomePage/AuthorSpotlight";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <PromotionalBanner />
       <FeaturedComics />
       <WhyUs />
+      <AuthorSpotlight />
     </div>
   );
 }

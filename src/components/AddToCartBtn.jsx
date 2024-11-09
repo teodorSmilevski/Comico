@@ -2,7 +2,7 @@
 import { useCart } from "../context/CartContext";
 import { toast } from "react-toastify";
 
-export default function AddToCartBtn({ comic, quantity, text, disabled }) {
+export default function AddToCartBtn({ comic, quantity, text }) {
   const { dispatch } = useCart();
 
   const handleAddToCart = () => {
@@ -34,7 +34,7 @@ export default function AddToCartBtn({ comic, quantity, text, disabled }) {
       <button
         onClick={handleAddToCart}
         className="mt-4 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded text-sm disabled:bg-red-900"
-        disabled={disabled}
+        disabled={comic.stock === 0}
       >
         {text}
       </button>

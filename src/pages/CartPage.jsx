@@ -52,14 +52,23 @@ function CartPage() {
           </div>
         </>
       ) : (
-        <p>Your cart is empty!</p>
+        <div className="flex flex-col items-center justify-center h-64 text-center text-gray-500">
+          <p className="text-lg font-semibold text-gray-200">
+            Your cart is empty
+          </p>
+          <p className="text-sm text-gray-400">
+            Browse our products to add items to your cart!
+          </p>
+        </div>
       )}
-      <Link
-        to="/checkout"
-        className="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
-      >
-        Proceed to Checkout
-      </Link>
+      {state.items.length > 0 && (
+        <Link
+          to="/checkout"
+          className="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+        >
+          Proceed to Checkout
+        </Link>
+      )}
     </div>
   );
 }

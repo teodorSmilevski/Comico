@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -32,26 +32,26 @@ export default function Footer() {
 
         <div className="flex space-x-4">
           <a
-            href="https://facebook.com"
+            href="https://github.com/teodorSmilevski/Comico"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400"
           >
-            <FaFacebook size={24} />
+            <FaGithub size={24} />
           </a>
 
           <a
-            href="https://instagram.com"
+            href="https://www.linkedin.com/in/teodor-smilevski-21860221b/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400"
           >
-            <FaInstagram size={24} />
+            <FaLinkedin size={24} />
           </a>
         </div>
       </div>
       <div className="mt-6 text-center text-sm text-gray-500">
-        <p>&copy; {new Date().getFullYear()} Comico.</p>
+        <p>&copy; {new Date().getFullYear()} Teodor Smilevski</p>
       </div>
     </footer>
   );

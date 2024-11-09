@@ -11,6 +11,7 @@ import CartPage from "./pages/CartPage";
 import "./App.css";
 import Checkout from "./components/Checkout";
 import ScrollToTop from "./components/ScrollToTop";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
               <Route path="/comics/:id" element={<ComicDetails />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
           <Footer />

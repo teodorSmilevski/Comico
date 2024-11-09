@@ -55,7 +55,10 @@ export default function ComicDetail() {
               min="1"
               max={comic.stock}
               value={quantity}
-              onChange={(e) => setQuantity(e.target.value)}
+              onChange={(e) => {
+                const value = Math.min(e.target.value, comic.stock);
+                setQuantity(value);
+              }}
               className="w-20 p-3 rounded bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-yellow-500"
             />
             <p className={`${comic.stock < 4 && "text-red-600 py-3"}`}>
@@ -66,7 +69,6 @@ export default function ComicDetail() {
             comic={comic}
             quantity={quantity}
             text={`Add to cart`}
-            disabled={comic.stock === 0}
           />
           <div className="mt-4 ">
             <a
